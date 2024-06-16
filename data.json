@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "query": "What is the nature of your issue?",
+        "options": ["General Support", "Technical Issue", "Billing", "Other"],
+        "category":"Type",
+        "path": 2
+    },
+    {
+        "id": 2,
+        "query": "What server software are you running?",
+        "options": ["Vanilla","Paper","Spigot","Forge","Bungeecord","Fabric","Other"],
+        "category":"Server Software",
+        "path": 3
+    },
+    {
+        "id": 3,
+        "query": "What version of Minecraft are you using?",
+        "options": ["1.21", "1.20", "1.19", "1.18","1.17","1.16","1.15","1.14","1.13","1.12","1.8","Other"],
+        "category":"Version",
+        "path": null
+    }
+]
