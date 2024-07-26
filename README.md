@@ -16,9 +16,8 @@ A Discord bot deigned to improve efficiency when operating a community forum by 
 2) Setup data.json with your desired questions
     - ID: The unique id of the question [Int]
     - Query: Your question [Str]
-    - Options: A list of selectable options [List Of Strings]
+    - Options: A list of selectable options [Dictionary Of Key-Value Pairs {Option: Path}]
     - Category: The category displayed for that question within the embed [Str]
-    - Path: The ID of the next question [Int]
 
 ## Requirements
 - **Python 3.0**<br>↳ Python Packages: discord.py
